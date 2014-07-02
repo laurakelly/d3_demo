@@ -5,7 +5,7 @@ d3_demo
 
 ##What is D3?
 
-##What is an SVG? Why do we care about them?
+##What is an SVG?
 
 #Part 1: Setting up D3
 
@@ -13,8 +13,10 @@ d3_demo
 2. Make an HTML file called `index.html` and a css file called `main.css`
 3. Download D3.js and move it to `d3_tutorial`
 4. Add the D3.js script to `index.html`
+5. Make a JavaScript file called `data_vis.js`
+6. Add `data_vis.js` script to your HTML file
 
-#Part 2: Let's make a bar chart 
+#Part 2: Let's start with a bar chart
 
 ##Axes
 
