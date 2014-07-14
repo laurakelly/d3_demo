@@ -1,6 +1,6 @@
-.xAxis path, .yAxis path {
-    stroke: black;
-    stroke-width: 2px;
+.xAxis path, .xAxis line, .yAxis path, .yAxis line{
+    stroke: darkgray;
+    stroke-width: 1px;
     fill: none;
 }
 
@@ -9,26 +9,63 @@ text {
     font-size: 10px;
 }
 
-.san-francisco {
+.title {
+    font-size: 15px;
+}
+
+/* styles for bar chart */
+
+.bar.san-francisco {
     fill: orange;
 }
 
-.new-york {
+.bar.new-york {
     fill: blue;
 }
 
-.austin {
+.bar.austin {
     fill: red;
 }
 
-.portland {
+.bar.portland {
     fill: green;
 }
 
-.miami {
+.bar.miami {
     fill: yellow;
 }
 
-.boston {
+.bar.boston {
     fill: purple
+}
+
+/* styles for line chart */
+
+#linechart path {
+    stroke-width: 2px;
+    fill: none;
+}
+
+path.san-francisco {
+    stroke: orange;
+}
+
+path.new-york {
+    stroke: blue;
+}
+
+path.austin {
+    stroke: red;
+}
+
+path.portland {
+    stroke: green;
+}
+
+path.miami {
+    stroke: yellow;
+}
+
+path.boston {
+    stroke: purple;
 }

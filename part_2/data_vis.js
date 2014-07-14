@@ -25,7 +25,15 @@
 
     d3.csv("data/data.csv", function(error, data) {
         x.domain(data.map(function(d) { return d.city }));
-        y.domain([0, d3.max(data, function(d){ return parseFloat(d.average) + 10 }) ]);
+        y.domain([0, 110]);
+
+        barchart.append("text")
+            .text("Average Values Over Time")
+            .attr("x", (width / 2))
+            .attr("y", 0 - (margin.top / 2))
+            .attr("class", "title")
+            .attr("text-anchor", "middle");
+        
 
         barchart.append("g")
             .attr("class", "xAxis")
