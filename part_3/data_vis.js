@@ -43,7 +43,7 @@
             barchart.append("g")
                 .attr("class", "yAxis")
                 .call(yAxis)
-              .append("text");
+              //`.append("text");
             
             barchart.selectAll(".bar")
                 .data(data)
