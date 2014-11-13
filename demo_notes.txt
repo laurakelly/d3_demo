@@ -3,7 +3,7 @@ Intro
 - Clone this repo at github.com/laurakelly/d3_demo
 - D3 is Javascript library that uses SVGs to create data visualizations
 - SVGs are scalar vector graphics that are actual DOM elements, so they can be styled directly with CSS and react to browser events like clicks and hovering
-- D3 is basically a set of graphing functions that translates your x and y coordinates into pixel coordinates on an SVG
+- D3 is basically a set of graphing functions that translates your x and y coordinates into pixel coordinates on an SVG (which you can do a lot with: http://adereth.github.io/oneoff/girltalk-v2/)
 - D3 also has some functions that  help you select, append, and remove items from the DOM
 - Finally, D3 has functions that allow you to read in data from different types of files -- CSV, JSON, etc
 
